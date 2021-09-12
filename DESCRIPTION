@@ -1,0 +1,27 @@
+Package: veganr
+Title: Pacote Para Obter O Cardapio De Marmitas Veganas
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "J",
+           family = "Jale",
+           role = c("aut", "cre"),
+           email = "jsjale1983@gmail.com")
+Description: Para saber mais sobre veganr, acesse os vignettes: browseVignettes(package = "veganr").
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    glue,
+    lifecycle,
+    magrittr,
+    purrr,
+    readr,
+    stringr,
+    tibble,
+    tidyr,
+    xml2
+Depends: 
+    R (>= 2.10)
