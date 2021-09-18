@@ -1,6 +1,7 @@
 ---
 title: "Vegan-R"
 output: rmarkdown::html_vignette
+always_allow_html: true
 vignette: >
   %\VignetteIndexEntry{Vegan-R}
   %\VignetteEngine{knitr::rmarkdown}

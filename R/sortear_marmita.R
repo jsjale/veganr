@@ -10,7 +10,7 @@
 #'   * Sopa: atualmente temos sopas das culinarias brasileira e italiana com
 #'   indicadores nutricionais de pouco carbo e pouca caloria.
 #'
-#'   * Prato: atualmente temos pratos das culina1rias asiatica, brasileira,
+#'   * Prato: atualmente temos pratos das culinarias asiatica, brasileira,
 #'   funcional, indiana, italiana, mediterranea e arabe com indicadores
 #'   nutricionais do tipo apimentado, muita fibra, proteico, pouco carbo,
 #'   pouca caloria e pouca gordura.

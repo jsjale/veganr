@@ -1,5 +1,6 @@
 ---
 output: github_document
+always_allow_html: true
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -16,20 +17,29 @@ knitr::opts_chunk$set(
 # veganr
 
 <!-- badges: start -->
-https://img.shields.io/github/repo-size/jsjale/veganr
+![GitHub repo size](https://img.shields.io/github/repo-size/jsjale/veganr)
 <!-- badges: end -->
 
-The goal of veganr is to ...
+O objetivo do veganr é disponibilizar as opções para compra de marmitas veganas
+por meio da base de dados `marmitas_veganas` extraída do site do 
+[Bleaf](https://www.beleaf.com.br/cardapio-marmitas-veganas).
 
-## Installation
+As opções de marmitas são:
 
-You can install the released version of veganr from [CRAN](https://CRAN.R-project.org) with:
+* Sopa: atualmente temos sopas das culinárias brasileira e italiana com 
+indicadores nutricionais de pouco carbo e pouca caloria.
 
-``` r
-install.packages("veganr")
-```
+* Prato: atualmente temos pratos das culinárias asiática, brasileira, 
+funcional, indiana, italiana, mediterrânea e árabe com indicadores 
+nutricionais do tipo apimentado, muita fibra, proteico, pouco carbo, 
+pouca caloria e pouca gordura.
 
-And the development version from [GitHub](https://github.com/) with:
+* Doce: atualmente temos doces com indicadores nutricionais de zero
+acuacar e com acucar.
+
+## Instalação
+
+Você pode instalar a versão em desenvolvimento a partir do site [GitHub](https://github.com/) com:
 
 ``` r
 # install.packages("devtools")
@@ -37,25 +47,25 @@ devtools::install_github("jsjale/veganr")
 ```
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Este exemplo básico mostra como exibir no console a tibble mais atual contendo
+as informações
 
 ```{r example}
 library(veganr)
-## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
+# Buscando a base de dados mais atual com `buscar_marmitas_veganas()`
+```{r dados, echo=TRUE}
+head(buscar_marmitas_veganas())
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>.
+É possível visualizar um gráfico de barras contendo as informações de marmitas
+e preços do banco de dados `marmitas_veganas`, por exemplo:
 
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
+```{r bar_plot, echo = TRUE}
+bar_plot()
 ```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+Para visualizar um gráfico de barras iterativo, basta executar a função 
+`bar_plotly()`. Outra opção iterativa pode ser obtida executando `sun_plotly()`.
+
