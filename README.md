@@ -49,7 +49,7 @@ Você pode instalar a versão em desenvolvimento a partir do site
 devtools::install_github("jsjale/veganr")
 ```
 
-## Example
+## Exemplo
 
 Este exemplo básico mostra como exibir no console a tibble mais atual
 contendo as informações
