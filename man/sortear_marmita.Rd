@@ -2,43 +2,43 @@
 % Please edit documentation in R/sortear_marmita.R
 \name{sortear_marmita}
 \alias{sortear_marmita}
-\title{Sortear uma marmita}
+\title{Sorteia uma marmita}
 \usage{
-sortear_marmita(tipo = c("Sopa", "Prato", "Doce"), preco_maximo = 50)
+sortear_marmita(tipo = c("Sopa", "Prato", "Doce"), preco_maximo = 20)
 }
 \arguments{
-\item{tipo}{\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}} argumento que especifica
-qual o tipo de marmita deve ser sorteado}
+\item{tipo}{\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}} especifica qual o tipo de marmita
+deve ser sorteado}
 
-\item{preco_maximo}{\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}} argumento
-indicando o preco maximo aceitavel para comprar a marmita}
+\item{preco_maximo}{\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}} indica o preco
+maximo aceitavel para comprar uma marmita}
 }
 \value{
-Uma string com informacoes sobre a marmita, os ingredientes e o preco
+Uma string com informacoes sobre a marmita, os ingredientes
+e o preco
 }
 \description{
 \code{sortear_marmita()} sorteia uma marmita de acordo com o \code{tipo} previamente
-selecionado e tambem com o \code{preco_maximo} aceitavel
-}
-\details{
+selecionado e tambem com o \code{preco_maximo} aceitavel.
+
 Quanto ao \code{tipo} pode ser:
 \itemize{
 \item Sopa: atualmente temos sopas das culinarias brasileira e italiana com
-indicadores nutricionais de pouco carbo e pouca caloria
-\item Prato: atualmente temos pratos das culinarias asiatica, brasileira,
+indicadores nutricionais de pouco carbo e pouca caloria.
+\item Prato: atualmente temos pratos das culina1rias asiatica, brasileira,
 funcional, indiana, italiana, mediterranea e arabe com indicadores
 nutricionais do tipo apimentado, muita fibra, proteico, pouco carbo,
-pouca caloria e pouca gordura
-\item Doce: atualmente temos com indicadores nutricionais de zero acucar e com
-acucar
+pouca caloria e pouca gordura.
+\item Doce: atualmente temos doces com indicadores nutricionais de zero
+acuacar e com acucar.
 }
-
-Sortear uma marmita
-
-\code{sortear_marmita()} sorteia uma marmita de acordo com o \code{tipo} previamente
-selecionado e tambem com o \code{preco_maximo} aceitavel
 }
 \examples{
 # Sorteando uma marmita do tipo sopa custando no maximo 20 reais
 sortear_marmita(tipo = "Sopa", preco_maximo = 20)
+}
+\seealso{
+Para ver as opcoes de marmitas disponiveis, acesse o dataset
+\link{marmitas_veganas} ou execute as funcoes \code{\link[=bar_plot]{bar_plot()}}, \code{\link[=bar_plotly]{bar_plotly()}}
+e \code{\link[=sun_plotly]{sun_plotly()}}
 }

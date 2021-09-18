@@ -2,17 +2,17 @@
 % Please edit documentation in R/buscar_marmitas_veganas.R
 \name{buscar_marmitas_veganas}
 \alias{buscar_marmitas_veganas}
-\title{Buscar cardapio de marmitas veganas do Beleaf}
+\title{Busca o cardapio de marmitas veganas do Beleaf}
 \usage{
 buscar_marmitas_veganas()
 }
 \value{
-Uma tibble
+Uma tibble contendo todas as marmitas disponiveis
 }
 \description{
-\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}} \code{buscar_marmitas_veganas()} retorna uma tibble contendo o cardapio das
-marmitas veganas do Beleaf. Todo o cardapio e 100\% vegetal e sem lactose.
-Existem opcoes de pratos, doces e sopas.
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#stable}{\figure{lifecycle-stable.svg}{options: alt='[Stable]'}}}{\strong{[Stable]}} \code{buscar_marmitas_veganas()} retorna uma tibble
+contendo o cardapio das marmitas veganas do Beleaf. Todo o cardapio e 100\%
+vegetal e sem lactose. Existem opcoes de pratos, doces e sopas.
 }
 \examples{
 buscar_marmitas_veganas()

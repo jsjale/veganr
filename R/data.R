@@ -1,6 +1,8 @@
 #' Dados sobre marmitas veganas do Beleaf 100% vegetal e sem lactose
 #'
-#' Essa base de dados contem informacoes sobre as marmitas veganas do Beleaf
+#' @description
+#'
+#' Essa base de dados contem informacoes sobre as marmitas veganas do Beleaf.
 #'
 #' @format Uma tibble, contendo:
 #' \describe{

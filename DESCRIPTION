@@ -2,7 +2,7 @@ Package: veganr
 Title: Pacote Para Obter O Cardapio De Marmitas Veganas
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "J",
+    person(given = "J.",
            family = "Jale",
            role = c("aut", "cre"),
            email = "jsjale1983@gmail.com")
@@ -14,16 +14,27 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
     dplyr,
+    forcats,
+    ggplot2,
+    ggrepel,
     glue,
     lifecycle,
     magrittr,
+    plotly,
     purrr,
     readr,
     stringr,
     tibble,
     tidyr,
+    viridis,
     xml2
 Depends: 
     R (>= 2.10)
 URL: https://github.com/jsjale/veganr
 BugReports: https://github.com/jsjale/veganr/issues
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr

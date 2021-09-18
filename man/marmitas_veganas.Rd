@@ -21,7 +21,7 @@ Beleaf - \url{https://www.beleaf.com.br/cardapio-marmitas-veganas}
 marmitas_veganas
 }
 \description{
-Essa base de dados contem informacoes sobre as marmitas veganas do Beleaf
+Essa base de dados contem informacoes sobre as marmitas veganas do Beleaf.
 }
 \examples{
 head(marmitas_veganas)
