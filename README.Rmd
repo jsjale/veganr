@@ -18,11 +18,18 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 ![GitHub repo size](https://img.shields.io/github/repo-size/jsjale/veganr)
+![GitHub all releases](https://img.shields.io/github/downloads/jsjale/veganr/total)
+![GitHub top language](https://img.shields.io/github/languages/top/jsjale/veganr)
+![GitHub forks](https://img.shields.io/github/forks/jsjale/veganr?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/jsjale/veganr?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/jsjale/veganr?style=social)
+![GitHub issues](https://img.shields.io/github/issues/jsjale/veganr)
+![GitHub Discussions](https://img.shields.io/github/discussions/jsjale/veganr)
 <!-- badges: end -->
 
 O objetivo do veganr é disponibilizar as opções para compra de marmitas veganas
 por meio da base de dados `marmitas_veganas` extraída do site do 
-[Bleaf](https://www.beleaf.com.br/cardapio-marmitas-veganas).
+[Beleaf](https://www.beleaf.com.br/cardapio-marmitas-veganas).
 
 As opções de marmitas são:
 
