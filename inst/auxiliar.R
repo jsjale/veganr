@@ -25,3 +25,4 @@
 # Para incluir badges na documentacao
 # usethis::use_lifecycle()
 
+# usethis::use_github_action("test-coverage")
