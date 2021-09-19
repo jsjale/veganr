@@ -25,6 +25,7 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www
 [![R-CMD-check](https://github.com/jsjale/veganr/workflows/R-CMD-check/badge.svg)](https://github.com/jsjale/veganr/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/jsjale/veganr/branch/master/graph/badge.svg)](https://codecov.io/gh/jsjale/veganr?branch=master)
+[![pkgdown](https://github.com/jsjale/veganr/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/jsjale/veganr/actions/workflows/pkgdown.yaml)
 <!-- badges: end -->
 
 O objetivo do veganr é disponibilizar as opções para compra de marmitas
