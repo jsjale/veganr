@@ -20,6 +20,8 @@ watchers](https://img.shields.io/github/watchers/jsjale/veganr?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/jsjale/veganr)
 ![GitHub
 Discussions](https://img.shields.io/github/discussions/jsjale/veganr)
+[![Lifecycle:
+maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 <!-- badges: end -->
 
 O objetivo do veganr é disponibilizar as opções para compra de marmitas
