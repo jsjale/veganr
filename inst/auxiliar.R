@@ -26,3 +26,5 @@
 # usethis::use_lifecycle()
 
 # usethis::use_github_action("test-coverage")
+
+# usethis::use_github_action("pkgdown")
