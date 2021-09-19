@@ -18,3 +18,73 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(veganr)
 ```
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# veganr
+
+<!-- badges: start -->
+![GitHub repo size](https://img.shields.io/github/repo-size/jsjale/veganr)
+![GitHub all releases](https://img.shields.io/github/downloads/jsjale/veganr/total)
+![GitHub top language](https://img.shields.io/github/languages/top/jsjale/veganr)
+![GitHub forks](https://img.shields.io/github/forks/jsjale/veganr?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/jsjale/veganr?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/jsjale/veganr?style=social)
+![GitHub issues](https://img.shields.io/github/issues/jsjale/veganr)
+![GitHub Discussions](https://img.shields.io/github/discussions/jsjale/veganr)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+<!-- badges: end -->
+
+O objetivo do veganr é disponibilizar as opções para compra de marmitas veganas
+por meio da base de dados `marmitas_veganas` extraída do site do 
+[Beleaf](https://www.beleaf.com.br/cardapio-marmitas-veganas).
+
+As opções de marmitas são:
+
+* Sopa: atualmente temos sopas das culinárias brasileira e italiana com 
+indicadores nutricionais de pouco carbo e pouca caloria.
+
+* Prato: atualmente temos pratos das culinárias asiática, brasileira, 
+funcional, indiana, italiana, mediterrânea e árabe com indicadores 
+nutricionais do tipo apimentado, muita fibra, proteico, pouco carbo, 
+pouca caloria e pouca gordura.
+
+* Doce: atualmente temos doces com indicadores nutricionais de zero
+acuacar e com acucar.
+
+## Instalação
+
+Você pode instalar a versão em desenvolvimento a partir do site [GitHub](https://github.com/) com:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("jsjale/veganr")
+```
+## Exemplo
+
+Este exemplo básico mostra como exibir no console a tibble mais atual contendo
+as informações
+
+```{r example, echo=TRUE}
+library(veganr)
+```
+
+# Buscando a base de dados mais atual com `buscar_marmitas_veganas()`
+```{r dados, echo=TRUE}
+head(buscar_marmitas_veganas())
+```
+
+É possível visualizar um gráfico de barras contendo as informações de marmitas
+e preços do banco de dados `marmitas_veganas`, por exemplo: `bar_plot()`
+
+
+Para visualizar um gráfico de barras iterativo, basta executar a função 
+`bar_plotly()`. Outra opção iterativa pode ser obtida executando `sun_plotly()`.
+
