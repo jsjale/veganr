@@ -1,7 +1,7 @@
 test_that("buscar_marmitas_veganas() works", {
 
   # Dimensoes e nomes
-  expect_equal(nrow(buscar_marmitas_veganas()), 40)
+  expect_gt(nrow(buscar_marmitas_veganas()), 35)
   expect_equal(ncol(buscar_marmitas_veganas()), 6)
   expect_equal(rownames(marmitas_veganas), as.character(1:35))
   expect_equal(
